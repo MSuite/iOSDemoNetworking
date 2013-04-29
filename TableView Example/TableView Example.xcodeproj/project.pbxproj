@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFBD4450150837EB00516303 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBD444F150837EB00516303 /* UIKit.framework */; };
+		AFBD4452150837EB00516303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBD4451150837EB00516303 /* Foundation.framework */; };
+		AFBD4454150837EB00516303 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBD4453150837EB00516303 /* CoreGraphics.framework */; };
+		AFBD445A150837EB00516303 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFBD4458150837EB00516303 /* InfoPlist.strings */; };
+		AFBD445C150837EB00516303 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBD445B150837EB00516303 /* main.m */; };
+		AFBD4460150837EB00516303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBD445F150837EB00516303 /* AppDelegate.m */; };
+		AFBD4463150837EB00516303 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBD4462150837EB00516303 /* ViewController.m */; };
+		AFBD4466150837EC00516303 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFBD4464150837EC00516303 /* ViewController.xib */; };
+		AFBD4473150841DE00516303 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBD4471150841DE00516303 /* DetailedViewController.m */; };
+		AFBD4474150841DE00516303 /* DetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFBD4472150841DE00516303 /* DetailedViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFBD444B150837EB00516303 /* TableView Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBD444F150837EB00516303 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFBD4451150837EB00516303 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFBD4453150837EB00516303 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFBD4457150837EB00516303 /* TableView Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableView Example-Info.plist"; sourceTree = "<group>"; };
+		AFBD4459150837EB00516303 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFBD445B150837EB00516303 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFBD445D150837EB00516303 /* TableView Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableView Example-Prefix.pch"; sourceTree = "<group>"; };
+		AFBD445E150837EB00516303 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFBD445F150837EB00516303 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFBD4461150837EB00516303 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFBD4462150837EB00516303 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFBD4465150837EC00516303 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AFBD4470150841DE00516303 /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		AFBD4471150841DE00516303 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		AFBD4472150841DE00516303 /* DetailedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFBD4448150837EB00516303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBD4450150837EB00516303 /* UIKit.framework in Frameworks */,
+				AFBD4452150837EB00516303 /* Foundation.framework in Frameworks */,
+				AFBD4454150837EB00516303 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFBD4440150837EB00516303 = {
+			isa = PBXGroup;
+			children = (
+				AFBD4455150837EB00516303 /* TableView Example */,
+				AFBD444E150837EB00516303 /* Frameworks */,
+				AFBD444C150837EB00516303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFBD444C150837EB00516303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD444B150837EB00516303 /* TableView Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFBD444E150837EB00516303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD444F150837EB00516303 /* UIKit.framework */,
+				AFBD4451150837EB00516303 /* Foundation.framework */,
+				AFBD4453150837EB00516303 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFBD4455150837EB00516303 /* TableView Example */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD445E150837EB00516303 /* AppDelegate.h */,
+				AFBD445F150837EB00516303 /* AppDelegate.m */,
+				AFBD4461150837EB00516303 /* ViewController.h */,
+				AFBD4462150837EB00516303 /* ViewController.m */,
+				AFBD4464150837EC00516303 /* ViewController.xib */,
+				AFBD4456150837EB00516303 /* Supporting Files */,
+				AFBD4470150841DE00516303 /* DetailedViewController.h */,
+				AFBD4471150841DE00516303 /* DetailedViewController.m */,
+				AFBD4472150841DE00516303 /* DetailedViewController.xib */,
+			);
+			path = "TableView Example";
+			sourceTree = "<group>";
+		};
+		AFBD4456150837EB00516303 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD4457150837EB00516303 /* TableView Example-Info.plist */,
+				AFBD4458150837EB00516303 /* InfoPlist.strings */,
+				AFBD445B150837EB00516303 /* main.m */,
+				AFBD445D150837EB00516303 /* TableView Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFBD444A150837EB00516303 /* TableView Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFBD4469150837EC00516303 /* Build configuration list for PBXNativeTarget "TableView Example" */;
+			buildPhases = (
+				AFBD4447150837EB00516303 /* Sources */,
+				AFBD4448150837EB00516303 /* Frameworks */,
+				AFBD4449150837EB00516303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableView Example";
+			productName = "TableView Example";
+			productReference = AFBD444B150837EB00516303 /* TableView Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFBD4442150837EB00516303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Michigan";
+			};
+			buildConfigurationList = AFBD4445150837EB00516303 /* Build configuration list for PBXProject "TableView Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFBD4440150837EB00516303;
+			productRefGroup = AFBD444C150837EB00516303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFBD444A150837EB00516303 /* TableView Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFBD4449150837EB00516303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBD445A150837EB00516303 /* InfoPlist.strings in Resources */,
+				AFBD4466150837EC00516303 /* ViewController.xib in Resources */,
+				AFBD4474150841DE00516303 /* DetailedViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFBD4447150837EB00516303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBD445C150837EB00516303 /* main.m in Sources */,
+				AFBD4460150837EB00516303 /* AppDelegate.m in Sources */,
+				AFBD4463150837EB00516303 /* ViewController.m in Sources */,
+				AFBD4473150841DE00516303 /* DetailedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFBD4458150837EB00516303 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFBD4459150837EB00516303 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFBD4464150837EC00516303 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFBD4465150837EC00516303 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFBD4467150837EC00516303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AFBD4468150837EC00516303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFBD446A150837EC00516303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableView Example/TableView Example-Prefix.pch";
+				INFOPLIST_FILE = "TableView Example/TableView Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFBD446B150837EC00516303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableView Example/TableView Example-Prefix.pch";
+				INFOPLIST_FILE = "TableView Example/TableView Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFBD4445150837EB00516303 /* Build configuration list for PBXProject "TableView Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBD4467150837EC00516303 /* Debug */,
+				AFBD4468150837EC00516303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFBD4469150837EC00516303 /* Build configuration list for PBXNativeTarget "TableView Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBD446A150837EC00516303 /* Debug */,
+				AFBD446B150837EC00516303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFBD4442150837EB00516303 /* Project object */;
+}
